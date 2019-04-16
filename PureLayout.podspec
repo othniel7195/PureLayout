@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name                  = 'PureLayout'
-  s.version               = '3.1.4'
+  s.version               = '3.1.5'
   s.homepage              = "https://github.com/#{s.name}/#{s.name}"
   s.license               = { type: 'MIT', file: 'LICENSE' }
   s.author                = 'Tyler Fox'
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.7'
   s.tvos.deployment_target = '9.0'
   s.source                = { git: "#{s.homepage}.git", tag: "v#{s.version}" }
